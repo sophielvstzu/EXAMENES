@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.image-container {
+  margin-right: 16px;
+}
+
+.input-group {
+  background: #181818;
+  padding: 8px 12px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+}
+
+.input-label {
+  color: #ffa34d;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+button {
+  margin-top: 4px;
+  background: #ffa34d;
+  color: #181818;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}
